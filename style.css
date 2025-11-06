@@ -1,0 +1,138 @@
+.form-wrapper {
+  padding: 36px;
+  border-radius: 12px;
+  border: 1px solid #f4f4f4;
+}
+@media (min-width: 768px) {
+  .form-wrapper {
+    max-width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  .form-wrapper {
+    max-width: 50%;
+  }
+}
+.error {
+  position: absolute;
+  inset-inline-start: 0;
+  bottom: -20px;
+  color: red;
+}
+
+/*  HOME PAGE */
+.navbar {
+  background-color: #1877f2;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  margin-right: 20px;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.feed-container {
+  width: 50%;
+  margin: auto;
+}
+.profile {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.post-form {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.post-form input, .post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.post-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #1877f2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.navbar .leftbarnav a{
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 16px;
+}
+.separator-line {
+  border-left: 2px solid #ddd;
+  height: 100%;
+  margin: 0 20px;
+}
+
+/* Public Feed */
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+.search-box {
+  padding: 10px;
+  width: 50%;
+  font-size: 16px;
+}
+.feed-container {
+  width: 50%;
+  margin: auto;
+}
+.profile {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
